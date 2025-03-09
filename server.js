@@ -22,7 +22,7 @@ app.use(morgan("dev")); // 📜 Logging
 app.use(express.json()); // ✅ Parses JSON request body
 
 // ✅ Apply CORS Before Routes
-const allowedOrigins = ["http://localhost:5173"];
+const allowedOrigins = ["http://localhost:5173", "https://rapidm.vercel.app",];
 app.use(
   cors({
     origin: (origin, callback) => {
