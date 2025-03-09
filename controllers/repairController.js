@@ -1,5 +1,5 @@
 import Joi from "joi";
-import Repair from "../models/Repair.js";
+import Repair from "../models/repair.js";
 
 // Define Joi validation schema
 const repairSchema = Joi.object({
